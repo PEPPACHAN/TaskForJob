@@ -12,8 +12,23 @@
 		FCB1A0AD2C9B11DB00A11C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB1A0AC2C9B11DB00A11C48 /* Assets.xcassets */; };
 		FCB1A0B02C9B11DB00A11C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB1A0AF2C9B11DB00A11C48 /* Preview Assets.xcassets */; };
 		FCB1A0B22C9B11DB00A11C48 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0B12C9B11DB00A11C48 /* Persistence.swift */; };
-		FCB1A0B52C9B11DB00A11C48 /* TaskForJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0B32C9B11DB00A11C48 /* TaskForJob.xcdatamodeld */; };
+		FCB1A0BC2C9B237400A11C48 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0BB2C9B237400A11C48 /* Model.swift */; };
+		FCB1A0BE2C9B23E800A11C48 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0BD2C9B23E800A11C48 /* ViewModel.swift */; };
+		FCB1A0C02C9B400100A11C48 /* TodoPlates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0BF2C9B400000A11C48 /* TodoPlates.swift */; };
+		FCB1A0C22C9B425A00A11C48 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0C12C9B425A00A11C48 /* CategoryView.swift */; };
+		FCB1A0C92C9C815F00A11C48 /* TaskForJob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0C72C9C815E00A11C48 /* TaskForJob.xcdatamodeld */; };
+		FCB1A0D12CA1614F00A11C48 /* TaskForJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A0D02CA1614F00A11C48 /* TaskForJobTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCB1A0D22CA1614F00A11C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB1A09D2C9B11D900A11C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB1A0A42C9B11D900A11C48;
+			remoteInfo = TaskForJob;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FCB1A0A52C9B11D900A11C48 /* TaskForJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskForJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,11 +37,24 @@
 		FCB1A0AC2C9B11DB00A11C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB1A0AF2C9B11DB00A11C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCB1A0B12C9B11DB00A11C48 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		FCB1A0B42C9B11DB00A11C48 /* TaskForJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskForJob.xcdatamodel; sourceTree = "<group>"; };
+		FCB1A0BB2C9B237400A11C48 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FCB1A0BD2C9B23E800A11C48 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FCB1A0BF2C9B400000A11C48 /* TodoPlates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoPlates.swift; sourceTree = "<group>"; };
+		FCB1A0C12C9B425A00A11C48 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		FCB1A0C82C9C815E00A11C48 /* TaskForJob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskForJob.xcdatamodel; sourceTree = "<group>"; };
+		FCB1A0CE2CA1614F00A11C48 /* TaskForJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskForJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB1A0D02CA1614F00A11C48 /* TaskForJobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskForJobTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FCB1A0A22C9B11D900A11C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB1A0CB2CA1614F00A11C48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				FCB1A0A72C9B11D900A11C48 /* TaskForJob */,
+				FCB1A0C72C9C815E00A11C48 /* TaskForJob.xcdatamodeld */,
+				FCB1A0CF2CA1614F00A11C48 /* TaskForJobTests */,
 				FCB1A0A62C9B11D900A11C48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				FCB1A0A52C9B11D900A11C48 /* TaskForJob.app */,
+				FCB1A0CE2CA1614F00A11C48 /* TaskForJobTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +86,13 @@
 		FCB1A0A72C9B11D900A11C48 /* TaskForJob */ = {
 			isa = PBXGroup;
 			children = (
-				FCB1A0A82C9B11D900A11C48 /* TaskForJobApp.swift */,
+				FCB1A0C62C9C512F00A11C48 /* Model */,
+				FCB1A0C52C9C511800A11C48 /* ViewModel */,
 				FCB1A0AA2C9B11D900A11C48 /* ContentView.swift */,
+				FCB1A0A82C9B11D900A11C48 /* TaskForJobApp.swift */,
+				FCB1A0C12C9B425A00A11C48 /* CategoryView.swift */,
+				FCB1A0BF2C9B400000A11C48 /* TodoPlates.swift */,
 				FCB1A0AC2C9B11DB00A11C48 /* Assets.xcassets */,
-				FCB1A0B12C9B11DB00A11C48 /* Persistence.swift */,
-				FCB1A0B32C9B11DB00A11C48 /* TaskForJob.xcdatamodeld */,
 				FCB1A0AE2C9B11DB00A11C48 /* Preview Content */,
 			);
 			path = TaskForJob;
@@ -71,6 +104,31 @@
 				FCB1A0AF2C9B11DB00A11C48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCB1A0C52C9C511800A11C48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCB1A0B12C9B11DB00A11C48 /* Persistence.swift */,
+				FCB1A0BD2C9B23E800A11C48 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCB1A0C62C9C512F00A11C48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCB1A0BB2C9B237400A11C48 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCB1A0CF2CA1614F00A11C48 /* TaskForJobTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB1A0D02CA1614F00A11C48 /* TaskForJobTests.swift */,
+			);
+			path = TaskForJobTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +151,24 @@
 			productReference = FCB1A0A52C9B11D900A11C48 /* TaskForJob.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FCB1A0CD2CA1614F00A11C48 /* TaskForJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB1A0D42CA1614F00A11C48 /* Build configuration list for PBXNativeTarget "TaskForJobTests" */;
+			buildPhases = (
+				FCB1A0CA2CA1614F00A11C48 /* Sources */,
+				FCB1A0CB2CA1614F00A11C48 /* Frameworks */,
+				FCB1A0CC2CA1614F00A11C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB1A0D32CA1614F00A11C48 /* PBXTargetDependency */,
+			);
+			name = TaskForJobTests;
+			productName = TaskForJobTests;
+			productReference = FCB1A0CE2CA1614F00A11C48 /* TaskForJobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -105,6 +181,10 @@
 				TargetAttributes = {
 					FCB1A0A42C9B11D900A11C48 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					FCB1A0CD2CA1614F00A11C48 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FCB1A0A42C9B11D900A11C48;
 					};
 				};
 			};
@@ -122,6 +202,7 @@
 			projectRoot = "";
 			targets = (
 				FCB1A0A42C9B11D900A11C48 /* TaskForJob */,
+				FCB1A0CD2CA1614F00A11C48 /* TaskForJobTests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +217,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCB1A0CC2CA1614F00A11C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -143,14 +231,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB1A0B52C9B11DB00A11C48 /* TaskForJob.xcdatamodeld in Sources */,
+				FCB1A0BC2C9B237400A11C48 /* Model.swift in Sources */,
 				FCB1A0B22C9B11DB00A11C48 /* Persistence.swift in Sources */,
+				FCB1A0BE2C9B23E800A11C48 /* ViewModel.swift in Sources */,
+				FCB1A0C02C9B400100A11C48 /* TodoPlates.swift in Sources */,
+				FCB1A0C92C9C815F00A11C48 /* TaskForJob.xcdatamodeld in Sources */,
 				FCB1A0AB2C9B11D900A11C48 /* ContentView.swift in Sources */,
+				FCB1A0C22C9B425A00A11C48 /* CategoryView.swift in Sources */,
 				FCB1A0A92C9B11D900A11C48 /* TaskForJobApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCB1A0CA2CA1614F00A11C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB1A0D12CA1614F00A11C48 /* TaskForJobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCB1A0D32CA1614F00A11C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB1A0A42C9B11D900A11C48 /* TaskForJob */;
+			targetProxy = FCB1A0D22CA1614F00A11C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FCB1A0B62C9B11DB00A11C48 /* Debug */ = {
@@ -330,6 +438,42 @@
 			};
 			name = Release;
 		};
+		FCB1A0D52CA1614F00A11C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ85TLYX66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pets.TaskForJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskForJob.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskForJob";
+			};
+			name = Debug;
+		};
+		FCB1A0D62CA1614F00A11C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ85TLYX66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pets.TaskForJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskForJob.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskForJob";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,15 +495,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FCB1A0D42CA1614F00A11C48 /* Build configuration list for PBXNativeTarget "TaskForJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB1A0D52CA1614F00A11C48 /* Debug */,
+				FCB1A0D62CA1614F00A11C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FCB1A0B32C9B11DB00A11C48 /* TaskForJob.xcdatamodeld */ = {
+		FCB1A0C72C9C815E00A11C48 /* TaskForJob.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FCB1A0B42C9B11DB00A11C48 /* TaskForJob.xcdatamodel */,
+				FCB1A0C82C9C815E00A11C48 /* TaskForJob.xcdatamodel */,
 			);
-			currentVersion = FCB1A0B42C9B11DB00A11C48 /* TaskForJob.xcdatamodel */;
+			currentVersion = FCB1A0C82C9C815E00A11C48 /* TaskForJob.xcdatamodel */;
 			path = TaskForJob.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
